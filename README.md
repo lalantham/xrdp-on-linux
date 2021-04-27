@@ -1,5 +1,5 @@
 ![Repo Image](https://github.com/lalantham/xrdp-on-linux/blob/main/img.png)
-# Ubutnu Web Server
+# Desktop Environment on CentOS & Debian {xRDP}
 
 >On Centos Server
 
