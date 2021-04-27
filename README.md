@@ -27,13 +27,17 @@
 
 ## 03 - Firewall Configuration
 
-	3.1 - sudo firewall-cmd --new-zone=xrdp --permanent
+	3.1 - sudo firewall-cmd --add-port=3389/tcp --permanent
+	
+	3.2 - sudo firewall-cmd --reload
+	
+	3.3 - sudo firewall-cmd --new-zone=xrdp --permanent
 
-	3.2 - sudo firewall-cmd --zone=xrdp --add-port=3389/tcp --permanent
+	3.4 - sudo firewall-cmd --zone=xrdp --add-port=3389/tcp --permanent
 
-	3.3 - sudo firewall-cmd --zone=xrdp --add-source=192.168.1.0/24 --permanent
+	3.5 - sudo firewall-cmd --zone=xrdp --add-source=192.168.1.0/24 --permanent
 
-	3.4 - sudo firewall-cmd --reload
+	3.6 - sudo firewall-cmd --reload
 
   
 >On Debian Server
