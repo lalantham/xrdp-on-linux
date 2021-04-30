@@ -46,7 +46,7 @@
 
 	1.1 - sudo apt update
 
-	1.2 - sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils 
+	1.2 - sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils || sudo tasksel install desktop gnome-desktop
 
 	1.3 - sudo apt install xrdp 
 
